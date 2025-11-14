@@ -14,6 +14,7 @@
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
     </used-plugins>
     <used-behaviors />
@@ -715,6 +716,98 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite30" sid="215523644889914">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="941852172947333" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Level 3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="nextlevel3" sid="177083774940155">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="730596758045682" speed="5">
+                    <frame duration="1" hotspotX="0.50055" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Icon_Selanjutnya.png">
+                        <collision-poly>
+                            <point x="0.264026" y="0.254777" />
+                            <point x="0.49945" y="0.166667" />
+                            <point x="0.755776" y="0.235669" />
+                            <point x="0.867987" y="0.5" />
+                            <point x="0.49945" y="0.90552" />
+                            <point x="0.378438" y="0.63482" />
+                            <point x="0.188119" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite32" sid="508991114276950">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="592739120755616" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Background Soal Lv3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite33" sid="123381030793876">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="959883932015371" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\halaman akhir.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="275695320300130">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="inputjawabanlevel3" sid="773375040503414">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="152017569435479" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\input jwb_lv1.png">
+                        <collision-poly>
+                            <point x="0.076412" y="0.353846" />
+                            <point x="0.5" y="0.169231" />
+                            <point x="0.933555" y="0.307692" />
+                            <point x="0.946844" y="0.5" />
+                            <point x="0.931894" y="0.684615" />
+                            <point x="0.5" y="0.815385" />
+                            <point x="0.0780731" y="0.638462" />
+                            <point x="0.0697674" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextBox3" sid="881889967552007">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="textboxlevel3" sid="594102469828022">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="inputlevel3" sid="784676833357474">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="395334894280594" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\input jwb_lv1.png">
+                        <collision-poly>
+                            <point x="0.076412" y="0.353846" />
+                            <point x="0.5" y="0.169231" />
+                            <point x="0.933555" y="0.307692" />
+                            <point x="0.946844" y="0.5" />
+                            <point x="0.931894" y="0.684615" />
+                            <point x="0.5" y="0.815385" />
+                            <point x="0.0780731" y="0.638462" />
+                            <point x="0.0697674" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="textt33" sid="325453746175039">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -729,6 +822,9 @@
         <layout>Kejadian 1_Lv 2.xml</layout>
         <layout>Kejadian 2_Lv 2.xml</layout>
         <layout>Soal Lv 2.xml</layout>
+        <layout>Level 3.xml</layout>
+        <layout>Lab-level3.xml</layout>
+        <layout>Selesai.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
@@ -740,6 +836,9 @@
         <event-sheet>Event sheet 7.xml</event-sheet>
         <event-sheet>Event sheet 8.xml</event-sheet>
         <event-sheet>Event sheet 9.xml</event-sheet>
+        <event-sheet>Event sheet 10.xml</event-sheet>
+        <event-sheet>Event sheet 11.xml</event-sheet>
+        <event-sheet>Event sheet 12.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="1" />

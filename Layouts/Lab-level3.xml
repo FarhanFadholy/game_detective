@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>laboratorium1</name>
-    <sid>280900811933759</sid>
-    <event-sheet>Event sheet 7</event-sheet>
+    <name>Lab-level3</name>
+    <sid>359353525135284</sid>
+    <event-sheet>Event sheet 11</event-sheet>
     <size>
         <width>1920</width>
         <height>1080</height>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Layer 0" sid="416484564867282">
+        <layer name="Layer 0" sid="490307743689976">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Sprite13" uid="25">
+                <instance type="Sprite32" uid="45">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -39,10 +39,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>960</x>
+                        <x>966</x>
                         <y>540</y>
                         <z>0</z>
-                        <width>1920</width>
+                        <width>1932</width>
                         <height>1080</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
@@ -51,7 +51,34 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TextBox2" uid="29">
+                <instance type="textt33" uid="48">
+                    <properties>
+                        <text></text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Comic Sans MS,-32,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1054</x>
+                        <y>709</y>
+                        <z>0</z>
+                        <width>426</width>
+                        <height>62</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="textboxlevel3" uid="49">
                     <properties>
                         <text></text>
                         <placeholder></placeholder>
@@ -67,17 +94,17 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>990</x>
-                        <y>542</y>
+                        <x>1025</x>
+                        <y>705</y>
                         <z>0</z>
-                        <width>516.337646484</width>
-                        <height>75.729515076</height>
+                        <width>462</width>
+                        <height>69</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
-                <instance type="Sprite19" uid="28">
+                <instance type="inputlevel3" uid="47">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -87,11 +114,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1242</x>
-                        <y>580</y>
+                        <x>1264</x>
+                        <y>740</y>
                         <z>0</z>
-                        <width>733</width>
-                        <height>157</height>
+                        <width>674</width>
+                        <height>150</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -100,24 +127,6 @@
                     </world>
                 </instance>
             </instances>
-            <effects />
-        </layer>
-        <layer name="Layer 1" sid="518364660724586">
-            <initially-visible>1</initially-visible>
-            <background-color>255,255,255</background-color>
-            <transparent>1</transparent>
-            <parallax>
-                <x>1</x>
-                <y>1</y>
-            </parallax>
-            <zoom-rate>1</zoom-rate>
-            <opacity>1</opacity>
-            <force-own-texture>0</force-own-texture>
-            <global>0</global>
-            <use-render-cells>0</use-render-cells>
-            <blend-mode>0</blend-mode>
-            <effect-fallback>0</effect-fallback>
-            <instances />
             <effects />
         </layer>
     </layers>
