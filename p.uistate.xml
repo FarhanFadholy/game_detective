@@ -13,12 +13,17 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="0">menu</layout>
         <layout order="1">Level 1</layout>
         <layout order="2">laboratorium1</layout>
-        <layout order="3">Level 2</layout>
+        <layout active="1" order="3">Level 2</layout>
         <layout order="4">Level 3</layout>
         <layout order="5">Lab-level3</layout>
         <layout order="6">Selesai</layout>
-        <event-sheet active="1" order="7">Event sheet 7</event-sheet>
+        <layout order="9">Kejadian 1_Lv 2</layout>
+        <layout order="11">Kejadian 2_Lv 2</layout>
+        <event-sheet order="7">Event sheet 7</event-sheet>
         <event-sheet order="8">Event sheet 11</event-sheet>
+        <event-sheet order="10">Event sheet 8</event-sheet>
+        <event-sheet order="12">Event sheet 10</event-sheet>
+        <event-sheet order="13">Event sheet 9</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -29,8 +34,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <families-expanded root="1" />
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
-        <folder expanded="0" path="layout-folder/" />
-        <folder expanded="0" path="event-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />

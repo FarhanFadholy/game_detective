@@ -45,5 +45,13 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="937452400165885">
+            <conditions />
+            <actions />
+        </event-block>
+        <event-block sid="437928946946077">
+            <conditions />
+            <actions />
+        </event-block>
     </events>
 </c2eventsheet>
