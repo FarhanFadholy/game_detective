@@ -808,6 +808,24 @@
         <object-type name="textt33" sid="325453746175039">
             <plugin id="Text" />
         </object-type>
+        <object-type name="selanjutnya1" sid="518392913384927">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="682472928778391" speed="5">
+                    <frame duration="1" hotspotX="0.50055" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Icon_Selanjutnya.png">
+                        <collision-poly>
+                            <point x="0.264026" y="0.254777" />
+                            <point x="0.49945" y="0.166667" />
+                            <point x="0.755776" y="0.235669" />
+                            <point x="0.867987" y="0.5" />
+                            <point x="0.49945" y="0.90552" />
+                            <point x="0.378438" y="0.63482" />
+                            <point x="0.188119" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

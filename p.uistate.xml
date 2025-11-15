@@ -17,8 +17,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="4">Level 3</layout>
         <layout order="5">Lab-level3</layout>
         <layout order="6">Selesai</layout>
-        <event-sheet active="1" order="7">Event sheet 7</event-sheet>
+        <event-sheet order="7">Event sheet 7</event-sheet>
         <event-sheet order="8">Event sheet 11</event-sheet>
+        <event-sheet order="9">Event sheet 2</event-sheet>
+        <event-sheet active="1" order="10">Event sheet 10</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -86,5 +88,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite33/" />
         <folder expanded="1" path="animation-folder/inputjawabanlevel3/" />
         <folder expanded="1" path="animation-folder/inputlevel3/" />
+        <folder expanded="1" path="animation-folder/selanjutnya1/" />
     </folders-expanded>
 </c2uistate>
