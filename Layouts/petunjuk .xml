@@ -102,11 +102,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1657</x>
+                        <x>1655.552001953</x>
                         <y>765</y>
                         <z>0</z>
-                        <width>114.991249084</width>
-                        <height>103.491798401</height>
+                        <width>165.183502197</width>
+                        <height>148.66468811</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -124,14 +124,36 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1774</x>
-                        <y>761</y>
+                        <x>1775</x>
+                        <y>765</y>
                         <z>0</z>
-                        <width>114.50933075</width>
-                        <height>103.058403015</height>
+                        <width>165.184005737</width>
+                        <height>148.664993286</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Kembali" uid="7">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>164.895889282</x>
+                        <y>82.625061035</y>
+                        <z>0</z>
+                        <width>264.511169434</width>
+                        <height>95.471366882</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.50054884</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

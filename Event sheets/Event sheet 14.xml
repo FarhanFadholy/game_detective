@@ -1,87 +1,87 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>Event sheet 11</name>
+    <name>Event sheet 14</name>
     <events>
-        <event-block sid="378832029621774">
+        <event-block sid="717030313809685">
             <conditions>
-                <condition id="6" name="On object clicked" sid="371045234451361" type="Mouse">
+                <condition id="6" name="On object clicked" sid="117905405906168" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">inputlevel3</param>
+                    <param id="2" name="Object clicked">Jwb_lv2</param>
                 </condition>
             </conditions>
             <actions />
         </event-block>
-        <event-block sid="445818980731069">
+        <event-block sid="545695031620307">
             <conditions>
-                <condition id="-2" name="On start of layout" sid="101644405937022" type="System" />
+                <condition id="-2" name="On start of layout" sid="380960291070662" type="System" />
             </conditions>
             <actions>
-                <action id="7" name="Set CSS style" sid="252257654511315" type="textboxlevel3">
+                <action id="7" name="Set CSS style" sid="476582723708978" type="TextBox4">
                     <param id="0" name="Property name">&quot;color&quot;</param>
                     <param id="1" name="Value">&quot;white&quot;</param>
                 </action>
-                <action id="7" name="Set CSS style" sid="458816887613269" type="textboxlevel3">
+                <action id="7" name="Set CSS style" sid="262373758103173" type="TextBox4">
                     <param id="0" name="Property name">&quot;background-color&quot;</param>
                     <param id="1" name="Value">&quot;transparent&quot;</param>
                 </action>
-                <action id="7" name="Set CSS style" sid="595292851238178" type="textboxlevel3">
+                <action id="7" name="Set CSS style" sid="266255077714259" type="TextBox4">
                     <param id="0" name="Property name">&quot;border&quot;</param>
                     <param id="1" name="Value">&quot;none&quot;</param>
                 </action>
-                <action id="7" name="Set CSS style" sid="708057903980886" type="textboxlevel3">
+                <action id="7" name="Set CSS style" sid="291922965280321" type="TextBox4">
                     <param id="0" name="Property name">&quot;font-size&quot;</param>
                     <param id="1" name="Value">&quot;24px&quot;</param>
                 </action>
-                <action id="7" name="Set CSS style" sid="447204508161199" type="textboxlevel3">
+                <action id="7" name="Set CSS style" sid="121599196898661" type="TextBox4">
                     <param id="0" name="Property name">&quot;font-family&quot;</param>
-                    <param id="1" name="Value">&quot;Comic Sans MS&quot;</param>
+                    <param id="1" name="Value">&quot;Cosmic Sans MS&quot;</param>
                 </action>
-                <action id="7" name="Set CSS style" sid="474587820042203" type="textboxlevel3">
+                <action id="7" name="Set CSS style" sid="827698516345764" type="TextBox4">
                     <param id="0" name="Property name">&quot;outline&quot;</param>
                     <param id="1" name="Value">&quot;none&quot;</param>
                 </action>
-                <action id="7" name="Set CSS style" sid="441698185351097" type="textboxlevel3">
+                <action id="7" name="Set CSS style" sid="970841540402292" type="TextBox4">
                     <param id="0" name="Property name">&quot;text-align&quot;</param>
                     <param id="1" name="Value">&quot;center&quot;</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="688274009653522">
+        <event-block sid="481563758027208">
             <conditions>
-                <condition id="0" name="On key pressed" sid="480788114930612" type="Keyboard">
+                <condition id="0" name="On key pressed" sid="508803109683453" type="Keyboard">
                     <param id="0" name="Key">13</param>
                 </condition>
             </conditions>
             <actions />
             <sub-events>
-                <event-block sid="912116914691432">
+                <event-block sid="926539515317261">
                     <conditions>
-                        <condition id="-8" name="Compare two values" sid="652123484062263" type="System">
-                            <param id="0" name="First value">textboxlevel3.Text</param>
+                        <condition id="-8" name="Compare two values" sid="450957296548536" type="System">
+                            <param id="0" name="First value">TextBox4.Text</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Second value">&quot;0.5&quot;</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Play" sid="916722505522527" type="Audio">
+                        <action id="-2" name="Go to layout" sid="313072589621194" type="System">
+                            <param id="0" name="Layout">Level 3</param>
+                        </action>
+                        <action id="0" name="Play" sid="697247636612363" type="Audio">
                             <param id="0" name="Audio file">benar</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
-                        <action id="-2" name="Go to layout" sid="859239306400572" type="System">
-                            <param id="0" name="Layout">Halaman Akhir</param>
-                        </action>
                     </actions>
                 </event-block>
-                <event-block sid="225750336823287">
+                <event-block sid="316994124668563">
                     <conditions>
-                        <condition id="-22" name="Else" sid="725346497192457" type="System" />
+                        <condition id="-22" name="Else" sid="221074256582401" type="System" />
                     </conditions>
                     <actions>
-                        <action id="0" name="Play" sid="958300746805382" type="Audio">
+                        <action id="0" name="Play" sid="743251599090178" type="Audio">
                             <param id="0" name="Audio file">salah2</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>

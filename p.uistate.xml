@@ -16,11 +16,26 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="3">Level 2</layout>
         <layout order="4">Level 3</layout>
         <layout order="5">Lab-level3</layout>
-        <layout order="6">Selesai</layout>
-        <event-sheet order="7">Event sheet 7</event-sheet>
-        <event-sheet order="8">Event sheet 11</event-sheet>
-        <event-sheet order="9">Event sheet 2</event-sheet>
-        <event-sheet active="1" order="10">Event sheet 10</event-sheet>
+        <layout order="8">Kejadian 1_Lv 2</layout>
+        <layout order="10">Kejadian 2_Lv 2</layout>
+        <layout order="13">petunjuk </layout>
+        <layout order="14">petunjuk1</layout>
+        <layout order="15">petunjuk2</layout>
+        <layout order="16">petunjuk3</layout>
+        <layout order="21">Halaman Akhir</layout>
+        <layout order="24">Soal Lv 2</layout>
+        <event-sheet order="6">Event sheet 7</event-sheet>
+        <event-sheet active="1" order="7">Event sheet 11</event-sheet>
+        <event-sheet order="9">Event sheet 8</event-sheet>
+        <event-sheet order="11">Event sheet 10</event-sheet>
+        <event-sheet order="12">Event sheet 9</event-sheet>
+        <event-sheet order="17">Event sheet 3</event-sheet>
+        <event-sheet order="18">Event sheet 4</event-sheet>
+        <event-sheet order="19">Event sheet 5</event-sheet>
+        <event-sheet order="20">Event sheet 6</event-sheet>
+        <event-sheet order="22">Event sheet 13</event-sheet>
+        <event-sheet order="23">Event sheet 1</event-sheet>
+        <event-sheet order="25">Event sheet 14</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -31,8 +46,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <families-expanded root="1" />
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
-        <folder expanded="0" path="layout-folder/" />
-        <folder expanded="0" path="event-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
@@ -45,7 +60,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite/" />
         <folder expanded="1" path="animation-folder/prev1/" />
         <folder expanded="1" path="animation-folder/next1/" />
-        <folder expanded="1" path="animation-folder/Sprite5/" />
         <folder expanded="1" path="animation-folder/prev2/" />
         <folder expanded="1" path="animation-folder/next2/" />
         <folder expanded="1" path="animation-folder/Sprite8/" />
@@ -88,6 +102,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite33/" />
         <folder expanded="1" path="animation-folder/inputjawabanlevel3/" />
         <folder expanded="1" path="animation-folder/inputlevel3/" />
-        <folder expanded="1" path="animation-folder/selanjutnya1/" />
+        <folder expanded="1" path="animation-folder/Kembali/" />
+        <folder expanded="1" path="animation-folder/Kembali_1/" />
+        <folder expanded="1" path="animation-folder/Kembali_2/" />
+        <folder expanded="1" path="animation-folder/Kembali_3/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/Sprite31/" />
+        <folder expanded="1" path="animation-folder/Kembali_Akhir/" />
+        <folder expanded="1" path="animation-folder/Jwb_lv2/" />
     </folders-expanded>
 </c2uistate>

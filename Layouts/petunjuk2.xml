@@ -4,8 +4,8 @@
     <sid>501800933132996</sid>
     <event-sheet>Event sheet 5</event-sheet>
     <size>
-        <width>1708</width>
-        <height>960</height>
+        <width>1920</width>
+        <height>1080</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -39,11 +39,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>639.434570313</x>
-                        <y>364.5</y>
+                        <x>960</x>
+                        <y>540</y>
                         <z>0</z>
-                        <width>1280</width>
-                        <height>729</height>
+                        <width>1920</width>
+                        <height>1080</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -61,11 +61,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1045</x>
-                        <y>508</y>
+                        <x>1656</x>
+                        <y>765</y>
                         <z>0</z>
-                        <width>105.556999207</width>
-                        <height>95.000999451</height>
+                        <width>165.184005737</width>
+                        <height>148.664993286</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -83,14 +83,36 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1120</x>
-                        <y>510</y>
+                        <x>1776</x>
+                        <y>765</y>
                         <z>0</z>
-                        <width>105.556999207</width>
-                        <height>95.000999451</height>
+                        <width>165.184005737</width>
+                        <height>148.664993286</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Kembali_2" uid="16">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>164.895996094</x>
+                        <y>82.625</y>
+                        <z>0</z>
+                        <width>264.510986328</width>
+                        <height>95.471000671</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.50054884</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

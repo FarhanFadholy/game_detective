@@ -165,14 +165,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite5" sid="707839031682478">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="160372829850902" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Petunjuk_3.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="prev2" sid="382176842165797">
             <plugin id="Sprite" />
             <animation-folder>
@@ -808,23 +800,139 @@
         <object-type name="textt33" sid="325453746175039">
             <plugin id="Text" />
         </object-type>
-        <object-type name="selanjutnya1" sid="518392913384927">
+        <object-type name="Kembali" sid="172757800406783">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="682472928778391" speed="5">
-                    <frame duration="1" hotspotX="0.50055" hotspotY="0.5" original-source="C:\Users\dayat\Downloads\Icon_Selanjutnya.png">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="567190982706805" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500549" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\Kembali_Button.png">
                         <collision-poly>
-                            <point x="0.264026" y="0.254777" />
-                            <point x="0.49945" y="0.166667" />
-                            <point x="0.755776" y="0.235669" />
-                            <point x="0.867987" y="0.5" />
-                            <point x="0.49945" y="0.90552" />
-                            <point x="0.378438" y="0.63482" />
-                            <point x="0.188119" y="0.5" />
+                            <point x="0.0530903" y="0.147091" />
+                            <point x="0.5" y="0.00219539" />
+                            <point x="0.947306" y="0.145993" />
+                            <point x="0.999604" y="0.499451" />
+                            <point x="0.94691" y="0.852909" />
+                            <point x="0.5" y="0.996707" />
+                            <point x="0.0526941" y="0.854007" />
+                            <point x="0.000396197" y="0.499451" />
+>>>>>>> b10b45ff55635917262950f89ba9c44e9f9ac7fb
                         </collision-poly>
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="Kembali_1" sid="559502581729131">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="864964305284264" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500549" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\Kembali_Button.png">
+                        <collision-poly>
+                            <point x="0.0530903" y="0.147091" />
+                            <point x="0.5" y="0.00219539" />
+                            <point x="0.947306" y="0.145993" />
+                            <point x="0.999604" y="0.499451" />
+                            <point x="0.94691" y="0.852909" />
+                            <point x="0.5" y="0.996707" />
+                            <point x="0.0526941" y="0.854007" />
+                            <point x="0.000396197" y="0.499451" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Kembali_2" sid="946906622006206">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="729498321558883" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500549" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\Kembali_Button.png">
+                        <collision-poly>
+                            <point x="0.0530903" y="0.147091" />
+                            <point x="0.5" y="0.00219539" />
+                            <point x="0.947306" y="0.145993" />
+                            <point x="0.999604" y="0.499451" />
+                            <point x="0.94691" y="0.852909" />
+                            <point x="0.5" y="0.996707" />
+                            <point x="0.0526941" y="0.854007" />
+                            <point x="0.000396197" y="0.499451" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Kembali_3" sid="852307756657227">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="758039895995309" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500549" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\Kembali_Button.png">
+                        <collision-poly>
+                            <point x="0.0530903" y="0.147091" />
+                            <point x="0.5" y="0.00219539" />
+                            <point x="0.947306" y="0.145993" />
+                            <point x="0.999604" y="0.499451" />
+                            <point x="0.94691" y="0.852909" />
+                            <point x="0.5" y="0.996707" />
+                            <point x="0.0526941" y="0.854007" />
+                            <point x="0.000396197" y="0.499451" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="719511777584417">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="968389476352279" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\Petunjuk_3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite31" sid="991543933375324">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="808537280327598" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\Halaman Akhir.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Kembali_Akhir" sid="291150059379581">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="689518117675921" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500549" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\Kembali_Button.png">
+                        <collision-poly>
+                            <point x="0.0530903" y="0.147091" />
+                            <point x="0.5" y="0.00219539" />
+                            <point x="0.947306" y="0.145993" />
+                            <point x="0.999604" y="0.499451" />
+                            <point x="0.94691" y="0.852909" />
+                            <point x="0.5" y="0.996707" />
+                            <point x="0.0526941" y="0.854007" />
+                            <point x="0.000396197" y="0.499451" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Jwb_lv2" sid="297383347364951">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="520553060618235" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500813" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\Inputan_lv2.png">
+                        <collision-poly>
+                            <point x="0.0324441" y="0.146341" />
+                            <point x="0.5" y="0.00650406" />
+                            <point x="0.967195" y="0.147967" />
+                            <point x="0.99964" y="0.499187" />
+                            <point x="0.966474" y="0.848781" />
+                            <point x="0.5" y="0.993496" />
+                            <point x="0.0331651" y="0.850407" />
+                            <point x="0.00036049" y="0.499187" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextBox4" sid="476322211517984">
+            <plugin id="TextBox" />
         </object-type>
     </object-folder>
     <families />
@@ -842,7 +950,7 @@
         <layout>Soal Lv 2.xml</layout>
         <layout>Level 3.xml</layout>
         <layout>Lab-level3.xml</layout>
-        <layout>Selesai.xml</layout>
+        <layout>Halaman Akhir.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
@@ -857,6 +965,8 @@
         <event-sheet>Event sheet 10.xml</event-sheet>
         <event-sheet>Event sheet 11.xml</event-sheet>
         <event-sheet>Event sheet 12.xml</event-sheet>
+        <event-sheet>Event sheet 13.xml</event-sheet>
+        <event-sheet>Event sheet 14.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="1" />
