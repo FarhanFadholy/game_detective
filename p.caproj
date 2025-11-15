@@ -911,6 +911,28 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Jwb_lv2" sid="297383347364951">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="520553060618235" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500813" original-source="D:\PROJECT\GAME DETEKTIF 2D\ASSET FIX\Inputan_lv2.png">
+                        <collision-poly>
+                            <point x="0.0324441" y="0.146341" />
+                            <point x="0.5" y="0.00650406" />
+                            <point x="0.967195" y="0.147967" />
+                            <point x="0.99964" y="0.499187" />
+                            <point x="0.966474" y="0.848781" />
+                            <point x="0.5" y="0.993496" />
+                            <point x="0.0331651" y="0.850407" />
+                            <point x="0.00036049" y="0.499187" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextBox4" sid="476322211517984">
+            <plugin id="TextBox" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -943,6 +965,7 @@
         <event-sheet>Event sheet 11.xml</event-sheet>
         <event-sheet>Event sheet 12.xml</event-sheet>
         <event-sheet>Event sheet 13.xml</event-sheet>
+        <event-sheet>Event sheet 14.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="1" />

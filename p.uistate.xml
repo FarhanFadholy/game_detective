@@ -22,9 +22,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="14">petunjuk1</layout>
         <layout order="15">petunjuk2</layout>
         <layout order="16">petunjuk3</layout>
-        <layout active="1" order="21">Halaman Akhir</layout>
+        <layout order="21">Halaman Akhir</layout>
+        <layout order="24">Soal Lv 2</layout>
         <event-sheet order="6">Event sheet 7</event-sheet>
-        <event-sheet order="7">Event sheet 11</event-sheet>
+        <event-sheet active="1" order="7">Event sheet 11</event-sheet>
         <event-sheet order="9">Event sheet 8</event-sheet>
         <event-sheet order="11">Event sheet 10</event-sheet>
         <event-sheet order="12">Event sheet 9</event-sheet>
@@ -33,6 +34,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet order="19">Event sheet 5</event-sheet>
         <event-sheet order="20">Event sheet 6</event-sheet>
         <event-sheet order="22">Event sheet 13</event-sheet>
+        <event-sheet order="23">Event sheet 1</event-sheet>
+        <event-sheet order="25">Event sheet 14</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -106,5 +109,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite5/" />
         <folder expanded="1" path="animation-folder/Sprite31/" />
         <folder expanded="1" path="animation-folder/Kembali_Akhir/" />
+        <folder expanded="1" path="animation-folder/Jwb_lv2/" />
     </folders-expanded>
 </c2uistate>
